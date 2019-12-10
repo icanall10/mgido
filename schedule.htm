@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/perfect-scrollbar.min.js"></script>
+    <script src="./js/chosen.jquery.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header-block">
+            <div class="header">
+                <div class="inner container flex flex-middle">
+                    <div class="menu-link-and-logo flex flex-middle">
+                        <div class="only-tablet-or-mobile">
+                            <a href="#" class="menu-link" data-mobile-menu-toggle>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts flex flex-middle">
+                        <div class="items flex only-desktop">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                        <div class="call-me only-desktop-or-tablet">
+                            <a href="#" data-ui-dialog-link="call-me-form">ЗАКАЗАТЬ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu only-desktop">
+                <div class="inner container">
+                    <ul class="flex">
+                        <li class="dropdown">
+                            <a href="#" class="toggle">Об институте</a>
+                            <ul>
+                                <li><a href="#">Информация о МГИДО</a></li>
+                                <li><a href="#">История создания</a></li>
+                                <li><a href="#">Документы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Образовательные программы</a></li>
+                        <li><a href="#">Анатомия</a></li>
+                        <li><a href="#">Наука</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход НМО</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu" data-mobile-menu>
+                <a href="#" class="close" data-mobile-menu-toggle>Закрыть</a>
+
+                <div class="container">
+                    <div class="links">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="toggle">Об институте</a>
+                                <ul>
+                                    <li><a href="#">Информация о МГИДО</a></li>
+                                    <li><a href="#">История создания</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Образовательные программы</a></li>
+                            <li><a href="#">Анатомия</a></li>
+                            <li><a href="#">Наука</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Вход НМО</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="only-mobile">
+                        <div class="call-me">
+                            <a href="#" data-ui-dialog-link="call-me-form">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="center">
+
+        <div class="container">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li>Мероприятия</li>
+                </ul>
+            </div>
+
+            <h1>ИНФОРМАЦИЯ О МЕРОПРИЯТИЯХ МГИДО</h1>
+        </div>
+
+        <div class="schedule-info-block">
+            <div class="container">
+                <div class="text html-text">
+                    Расписание наших программ повышения квалификации, мастер-классов и других мероприятий.
+                </div>
+                <div class="info flex flex-left">
+                    <div class="item">
+                        <p>Используемые сокращения:</p>
+                        <p>
+                            ППК – программа повышения квалификации,<br>
+                            МК – мастер-класс,<br>
+                            К – курс,<br>
+                            Ф – форум,<br>
+                            В – вебинар.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Цвет заливки блоков:</p>
+                        <p>
+                            косметология – голубой,<br>
+                            озонотерапия – зеленый,<br>
+                            радиоволновые методики - фиолетовый,<br>
+                            онкодерматология - розовый.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="schedule-filters-block">
+            <div class="container">
+                <form action="#" class="filters-form">
+                    <div class="form-inner flex flex-left flex-middle">
+                        <div class="form-group flex flex-middle">
+                            <label for="#">Сортировать по</label>
+                            <select name="sort">
+                                <option value="date">Дате</option>
+                                <option value="subject">Теме</option>
+                                <option value="type">Форме обучения</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="schedule-block">
+            <div class="container">
+                <div class="table">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Дата<br>начала</th>
+                            <th>Дата<br>оконч.</th>
+                            <th>Направление</th>
+                            <th>Форма<br>обучения</th>
+                            <th>Тип</th>
+                            <th class="col-name">Название, стоимость (с нач. баллов НМО/без нач. баллов)</th>
+                            <th>Лектор</th>
+                            <th>Место</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td colspan="8"><b>ЗАОЧНЫЕ</b> ПРОГРАММЫ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ</td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td rowspan="2" class="td-green">Озонотерапия</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        <tr class="empty">
+                            <td colspan="8"></td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td rowspan="2" class="td-blue">Озонотерапия</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        <tr>
+                            <td colspan="8"><b>ОЧНО-ЗАОЧНЫЕ</b> ПРОГРАММЫ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ</td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td rowspan="2" class="td-pink">Озонотерапия</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        <tr>
+                            <td>18/11</td>
+                            <td>20/11</td>
+                            <td>заочная</td>
+                            <td class="td-grey">ППК</td>
+                            <td class="col-name">
+                                <div class="name">
+                                    <a href="#">«ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ»</a>
+                                </div>
+                                <div class="duration">(18 часов, 3 дня, 18 ЗЕТ - кредитов/баллов)</div>
+                                <div class="price">5 000 р./4 000 р.</div>
+                                <div class="links flex flex-left flex-nowrap">
+                                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                                       data-order-name="ОСНОВЫ ОЗОНОТЕРАПИИ В КЛИНИЧЕСКОЙ ПРАКТИКЕ">Записаться</a>
+                                    <a href="#" class="button" data-ui-dialog-link="review-form">Отзыв</a>
+                                    <a href="#" class="button">Подробнее о программе</a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#">А.В.СЫЧЕВ</a>
+                            </td>
+                            <td>ЭЛ. ДЕКАНАТ МГИДО</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-margin-35">
+            <div class="container">
+                <div class="html-text">
+                    <p>Реквизиты для оплаты обучения:</p>
+                    <p>
+                        ИП Терентьев А.Ю. <br>
+                        Юр. адрес: 109369, г. Москва, ул. Перерва, д. 52, стр. 1<br>
+                        ИНН 772819791923<br>
+                        ОГРНИП 317774600459390<br>
+                        Сбербанк (ПАО), г. Москва<br>
+                        р/с 40802810938000057420<br>
+                        к/с 30101810400000000225<br>
+                        БИК 044525225
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="footer-block">
+            <div class="header">
+                <div class="container inner flex flex-nowrap">
+                    <div class="logo-and-info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo-footer.png" alt="">
+                        </a>
+                        <div class="info">
+                            <div class="license">
+                                Лицензия на образовательную деятельность № 00001
+                            </div>
+                            <div class="contacts">
+                                Адрес института: Москва, ул. Перерва, д.52, стр.1<br>
+                                Контактный телефон: +7 (499) 702-54-54<br>
+                                E-mail: Info@mgido.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu flex flex-nowrap">
+                        <div class="item">
+                            <div class="name">Институт</div>
+                            <ul>
+                                <li><a href="#">О Нас</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Наука</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">НМО</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Сведения об организации</div>
+                            <ul>
+                                <li><a href="#">Условия соглашения</a></li>
+                                <li><a href="#">Политика безопасности</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Оплата обучения</a></li>
+                                <li><a href="#">Сведения об образовательной организации</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Образовательные программы</div>
+                            <ul>
+                                <li><a href="#">Медицинское образование</a></li>
+                                <li><a href="#">Непрерывное медицинское образование (НМО)</a></li>
+                                <li><a href="#">Мастер-классы</a></li>
+                                <li><a href="#">Анатомия для компаний и мероприятий</a></li>
+                                <li><a href="#">Анатомия для врачей</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container flex flex-middle">
+                    <div class="copyright">© 2019 | mgido.com</div>
+                    <div class="social-networks flex">
+                        <a href="#" target="_blank" class="item item-vk">vk</a>
+                        <a href="#" target="_blank" class="item item-fb">fb</a>
+                        <a href="#" target="_blank" class="item item-instagram">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-ui-dialog="call-me-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Обратный звонок"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="order-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Записаться на обучение"
+>
+    <form action="#" class="call-me-form">
+        <input type="hidden" name="order_name">
+        <div class="form-inner">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="review-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Оставить отзыв"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-inner">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <textarea name="comment" placeholder="Текст отзыва" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

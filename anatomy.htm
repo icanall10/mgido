@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/perfect-scrollbar.min.js"></script>
+    <script src="./js/chosen.jquery.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header-block">
+            <div class="header">
+                <div class="inner container flex flex-middle">
+                    <div class="menu-link-and-logo flex flex-middle">
+                        <div class="only-tablet-or-mobile">
+                            <a href="#" class="menu-link" data-mobile-menu-toggle>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts flex flex-middle">
+                        <div class="items flex only-desktop">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                        <div class="call-me only-desktop-or-tablet">
+                            <a href="#" data-ui-dialog-link="call-me-form">ЗАКАЗАТЬ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu only-desktop">
+                <div class="inner container">
+                    <ul class="flex">
+                        <li class="dropdown">
+                            <a href="#" class="toggle">Об институте</a>
+                            <ul>
+                                <li><a href="#">Информация о МГИДО</a></li>
+                                <li><a href="#">История создания</a></li>
+                                <li><a href="#">Документы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Образовательные программы</a></li>
+                        <li><a href="#">Анатомия</a></li>
+                        <li><a href="#">Наука</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход НМО</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu" data-mobile-menu>
+                <a href="#" class="close" data-mobile-menu-toggle>Закрыть</a>
+
+                <div class="container">
+                    <div class="links">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="toggle">Об институте</a>
+                                <ul>
+                                    <li><a href="#">Информация о МГИДО</a></li>
+                                    <li><a href="#">История создания</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Образовательные программы</a></li>
+                            <li><a href="#">Анатомия</a></li>
+                            <li><a href="#">Наука</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Вход НМО</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="only-mobile">
+                        <div class="call-me">
+                            <a href="#" data-ui-dialog-link="call-me-form">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="center">
+
+        <div class="slider-block anatomy">
+            <div class="container">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/anatomy-slide-1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="text">
+                                Постоянное наличие<br>
+                                <strong>КАДЕВЕРНОГО БИО-МАТЕРИАЛА</strong><br>
+                                в России
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/anatomy-slide-1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="text">
+                                Постоянное наличие2<br>
+                                <strong>КАДЕВЕРНОГО БИО-МАТЕРИАЛА</strong><br>
+                                в России
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="individual-material-block block">
+            <div class="container">
+                <div class="block-title line flex flex-top">
+                    ИНДИВИДУАЛЬНЫЙ ПОДБОР МАТЕРИАЛА<br>
+                    СОГЛАСНО ЦЕЛЯМ И ЗАДАЧАМ МЕРОПРИЯТИЯ
+
+                    <a href="#" class="button" data-ui-dialog-link="order-form" data-order-name="ЗАКАЗАТЬ МЕРОПРИЯТИЕ">ЗАКАЗАТЬ МЕРОПРИЯТИЕ</a>
+                </div>
+                <div class="items flex">
+                    <div class="item shadow">
+                        <div class="img">
+                            <img src="./img/anatomy-1.png" alt="">
+                        </div>
+                        <div class="name">
+                            ГОЛОВА (м/ж)<br>
+                            ГОЛОВА-ШЕЯ (м/ж)
+                        </div>
+                    </div>
+                    <div class="item shadow">
+                        <div class="img">
+                            <img src="./img/anatomy-2.png" alt="">
+                        </div>
+                        <div class="name">
+                            ВЕРХНИЕ КОНЕЧНОСТИ<br>
+                            НИЖНИЕ КОНЕЧНОСТИ
+                        </div>
+                    </div>
+                    <div class="item shadow">
+                        <div class="img">
+                            <img src="./img/anatomy-3.png" alt="">
+                        </div>
+                        <div class="name">
+                            ТОРС (м/ж)<br>
+                            ТАЗ (м/ж)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="specialities-block block">
+            <div class="container">
+                <div class="block-title line">РАЗЛИЧНЫЕ СПЕЦИАЛЬНОСТИ</div>
+                <div class="items flex">
+                    <div class="col">
+                        <div class="item">КОСМЕТОЛОГИЯ</div>
+                        <div class="item">ТРАВМАТОЛОГИЯ</div>
+                        <div class="item">ХИРУРГИЯ</div>
+                    </div>
+                    <div class="col">
+                        <div class="item">ПЛАСТИЧЕСКАЯ ХИРУРГИЯ</div>
+                        <div class="item">СОСУДИСТАЯ ХИРУРГИЯ</div>
+                        <div class="item">ОРТОПЕДИЯ</div>
+                    </div>
+                    <div class="col">
+                        <div class="item">ЧЕЛЮСТНОЕ-ЛИЦЕВАЯ ХИРУРГИЯ</div>
+                        <div class="item">ОФТАЛЬМОЛОГИЯ</div>
+                        <div class="item">СТОМАТОЛОГИЯ</div>
+                    </div>
+                    <div class="col">
+                        <div class="item">ОТОЛЯРИНГОЛОГИЯ</div>
+                        <div class="item">ТРАНСПЛАНТОЛОГИЯ</div>
+                        <div class="item">ГИНЕКОЛОГИЯ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="training-block block">
+            <div class="container">
+                <div class="block-title line">ПОЛНЫЙ ЦИКЛ ОРГАНИЗАЦИИ ОБУЧЕНИЙ</div>
+                <div class="training-list">
+                    <div class="item shadow">
+                        <div class="img-and-info">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/training-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Прямые контракты с УЦИМТ РНИМУ им. Н.И. ПИРОГОВА, АМТЕК Казань,
+                                    СКОЛКОВО, ФГБУ Лечебный реабилитационный центр и в регионах России
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#">
+                                подробнее <span class="arrow"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item shadow">
+                        <div class="img-and-info">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/training-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Полный цикл заказа, доставки, хранения,
+                                    утилизации и отчета за биологический материал
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#">
+                                подробнее <span class="arrow"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item shadow">
+                        <div class="img-and-info">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/training-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Включение диссекционных курсов в образовательные программы НМО
+                                    в учебный календарный план компаний
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#">
+                                подробнее <span class="arrow"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item shadow">
+                        <div class="img-and-info">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/training-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Обоснование безопасности применения продукции и
+                                    медицинских технологий
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#">
+                                подробнее <span class="arrow"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="safe-medicine-block block">
+            <div class="container">
+                <div class="block-title line">
+                    <div class="prefix">НАУЧНО-ОБРАЗОВАТЕЛЬНЫЙ АНАТОМИЧЕСКИЙ ПРОЕКТ</div>
+                    БЕЗОПАСНАЯ МЕДИЦИНА
+                </div>
+                <div class="inner flex flex-nowrap">
+                    <div class="text shadow" data-scroll>
+                        <div class="h2">ИНДИВИДУАЛЬНЫЙ ПОДХОД</div>
+                        <p>
+                            Возможность подбора биологического материала по различным параметрам: пол, возраст, цвет кожи,
+                            комплекция, наличие или отсутствие внутренних органов и другие.
+                            Постоянное наличие любого биоматериала на высокотехнологичном медицинском складе ответственного
+                            хранения и возможность легального перемещения биоматериала в любую точку России и стран СНГ.
+                        </p>
+                        <div class="h2">ОПЫТ РАБОТЫ С 1994 ГОДА</div>
+                        <p>
+                            Проведение научных, образовательных и маркетинговых мероприятий с учетом законодательства РФ.
+                            Официальный участник непрерывного медицинского образования с правом начисления баллов НМО.
+                        </p>
+                        <div class="h2">ПОДТВЕРЖДЕННОЕ КАЧЕСТВО РАБОТЫ</div>
+                        <p>
+                            С 2012 года и до сегодняшнего дня крупнейший поставщик образовательных программ для ведущих
+                            фармацевтических компаний в России.
+                            Пройдены процедуры проверки и аккредитации в международных компаниях.
+                            Свыше 500 локальных образовательных мероприятий для 5000 врачей России ежегодно.
+                        </p>
+                        <div class="h2">ПОЛНАЯ ОТВЕТСТВЕННОСТЬ</div>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                        <p>
+                            Проведение российских и международных мероприятий на основе законодательства РФ.
+                            Абсолютная финансовая прозрачность и полный документооборот для компании.
+                            Организация проведения образовательных мероприятий с возможностью использования практической части.
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/safe-medicine.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="educational-technology-block block">
+            <div class="container">
+                <div class="block-title line">НОВЫЕ ОБРАЗОВАТЕЛЬНЫЕ ТЕХНОЛОГИИ</div>
+                <div class="items">
+                    <div class="item" data-ui-dialog-link="educational-technology-popup-1">ПРЯМЫЕ ТРАНСЛЯЦИИ АНАТОМИЧЕСКИХ ЗАНЯТИЙ</div>
+                    <div class="item" data-ui-dialog-link="educational-technology-popup-2">АНАТОМИЧЕСКИЕ ТЕЛЕМОСТЫ</div>
+                    <div class="item" data-ui-dialog-link="educational-technology-popup-3">МАСШТАБИРОВАНИЕ СИСТЕМЫ ОБУЧЕНИЯ НА ТЕРРИТОРИИ РОССИИ</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners-block block">
+            <div class="container">
+                <div class="block-title line">ЭКСКЛЮЗИВНЫЕ ПЛОЩАДКИ</div>
+                <div class="partners-list flex flex-left">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner1.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner2.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner3.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner4.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner5.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/partner6.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="footer-block">
+            <div class="header">
+                <div class="container inner flex flex-nowrap">
+                    <div class="logo-and-info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo-footer.png" alt="">
+                        </a>
+                        <div class="info">
+                            <div class="license">
+                                Лицензия на образовательную деятельность № 00001
+                            </div>
+                            <div class="contacts">
+                                Адрес института: Москва, ул. Перерва, д.52, стр.1<br>
+                                Контактный телефон: +7 (499) 702-54-54<br>
+                                E-mail: Info@mgido.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu flex flex-nowrap">
+                        <div class="item">
+                            <div class="name">Институт</div>
+                            <ul>
+                                <li><a href="#">О Нас</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Наука</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">НМО</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Сведения об организации</div>
+                            <ul>
+                                <li><a href="#">Условия соглашения</a></li>
+                                <li><a href="#">Политика безопасности</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Оплата обучения</a></li>
+                                <li><a href="#">Сведения об образовательной организации</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Образовательные программы</div>
+                            <ul>
+                                <li><a href="#">Медицинское образование</a></li>
+                                <li><a href="#">Непрерывное медицинское образование (НМО)</a></li>
+                                <li><a href="#">Мастер-классы</a></li>
+                                <li><a href="#">Анатомия для компаний и мероприятий</a></li>
+                                <li><a href="#">Анатомия для врачей</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container flex flex-middle">
+                    <div class="copyright">© 2019 | mgido.com</div>
+                    <div class="social-networks flex">
+                        <a href="#" target="_blank" class="item item-vk">vk</a>
+                        <a href="#" target="_blank" class="item item-fb">fb</a>
+                        <a href="#" target="_blank" class="item item-instagram">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-ui-dialog="call-me-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Обратный звонок"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="test-form"
+     data-ui-dialog-width="600"
+     data-ui-dialog-title="Заявка на тестирование"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <textarea name="comment" rows="6" placeholder="Комментарий"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="order-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Записаться на обучение"
+>
+    <form action="#" class="call-me-form">
+        <input type="hidden" name="order_name">
+        <div class="form-inner">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="educational-technology-popup-1"
+     data-ui-dialog-width="800"
+     data-ui-dialog-title="ПРЯМЫЕ ТРАНСЛЯЦИИ АНАТОМИЧЕСКИХ ЗАНЯТИЙ"
+>
+    <div class="html-text">
+        <p>
+            Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <h2>Министерством Здравоохранения Российской Федерации</h2>
+        <p>
+            <a href="#">Медико-гуманитарный институт дополнительного образования (МГИДО)</a> - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <p>
+            Министерством Здравоохранения <a href="#">Российской Федерации</a> участник непрерывного медицинского
+            образования. Медико-гуманитарный институт дополнительного образования (МГИДО) - официально
+            зарегистрированный
+        </p>
+        <h3>Стажировка по пластической хирургии в Pieta</h3>
+        <ul>
+            <li>Заведующая хирургическим отделением МЦ «Семья».</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по Пластической хирургии в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+            <li>Повышение квалификации «Избранные вопросы эстетической хирургии» МАПО г.Санкт- Петербург.
+                Международный Курс по пластической хирургии: «Омолаживающие операции лица и шеи.
+                Маммопластика.»
+            </li>
+            <li>Стажировка по пластической хирургии в <a href="#">Pieta Centro Medico Brazil</a>.</li>
+            <li>Владеет косметологическими методиками: бутулинотерапия, контурная пластика (коррекция
+                дефектов при помощи дермальных наполнителей), лазерная косметология, нитевые технологии
+                лифтинга лица.
+            </li>
+            <li>Сертифицированный тренер компании «Здоровье семьи», в последующем компании Allergan c 2007
+                г.
+            </li>
+        </ul>
+        <h3>Заголовок</h3>
+        <ol>
+            <li>Заведующая хирургическим отделением <a href="#">МЦ «Семья»</a>.</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по <a href="#">Пластической хирургии</a> в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div data-ui-dialog="educational-technology-popup-2"
+     data-ui-dialog-width="800"
+     data-ui-dialog-title="АНАТОМИЧЕСКИЕ ТЕЛЕМОСТЫ"
+>
+    <div class="html-text">
+        <p>
+            Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <h2>Министерством Здравоохранения Российской Федерации</h2>
+        <p>
+            <a href="#">Медико-гуманитарный институт дополнительного образования (МГИДО)</a> - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <p>
+            Министерством Здравоохранения <a href="#">Российской Федерации</a> участник непрерывного медицинского
+            образования. Медико-гуманитарный институт дополнительного образования (МГИДО) - официально
+            зарегистрированный
+        </p>
+        <h3>Стажировка по пластической хирургии в Pieta</h3>
+        <ul>
+            <li>Заведующая хирургическим отделением МЦ «Семья».</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по Пластической хирургии в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+            <li>Повышение квалификации «Избранные вопросы эстетической хирургии» МАПО г.Санкт- Петербург.
+                Международный Курс по пластической хирургии: «Омолаживающие операции лица и шеи.
+                Маммопластика.»
+            </li>
+            <li>Стажировка по пластической хирургии в <a href="#">Pieta Centro Medico Brazil</a>.</li>
+            <li>Владеет косметологическими методиками: бутулинотерапия, контурная пластика (коррекция
+                дефектов при помощи дермальных наполнителей), лазерная косметология, нитевые технологии
+                лифтинга лица.
+            </li>
+            <li>Сертифицированный тренер компании «Здоровье семьи», в последующем компании Allergan c 2007
+                г.
+            </li>
+        </ul>
+        <h3>Заголовок</h3>
+        <ol>
+            <li>Заведующая хирургическим отделением <a href="#">МЦ «Семья»</a>.</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по <a href="#">Пластической хирургии</a> в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div data-ui-dialog="educational-technology-popup-3"
+     data-ui-dialog-width="800"
+     data-ui-dialog-title="МАСШТАБИРОВАНИЕ СИСТЕМЫ ОБУЧЕНИЯ НА ТЕРРИТОРИИ РОССИИ"
+>
+    <div class="html-text">
+        <p>
+            Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <h2>Министерством Здравоохранения Российской Федерации</h2>
+        <p>
+            <a href="#">Медико-гуманитарный институт дополнительного образования (МГИДО)</a> - официально зарегистрированный
+            Министерством Здравоохранения Российской Федерации участник непрерывного медицинского
+            образования.
+        </p>
+        <p>
+            Министерством Здравоохранения <a href="#">Российской Федерации</a> участник непрерывного медицинского
+            образования. Медико-гуманитарный институт дополнительного образования (МГИДО) - официально
+            зарегистрированный
+        </p>
+        <h3>Стажировка по пластической хирургии в Pieta</h3>
+        <ul>
+            <li>Заведующая хирургическим отделением МЦ «Семья».</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по Пластической хирургии в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+            <li>Повышение квалификации «Избранные вопросы эстетической хирургии» МАПО г.Санкт- Петербург.
+                Международный Курс по пластической хирургии: «Омолаживающие операции лица и шеи.
+                Маммопластика.»
+            </li>
+            <li>Стажировка по пластической хирургии в <a href="#">Pieta Centro Medico Brazil</a>.</li>
+            <li>Владеет косметологическими методиками: бутулинотерапия, контурная пластика (коррекция
+                дефектов при помощи дермальных наполнителей), лазерная косметология, нитевые технологии
+                лифтинга лица.
+            </li>
+            <li>Сертифицированный тренер компании «Здоровье семьи», в последующем компании Allergan c 2007
+                г.
+            </li>
+        </ul>
+        <h3>Заголовок</h3>
+        <ol>
+            <li>Заведующая хирургическим отделением <a href="#">МЦ «Семья»</a>.</li>
+            <li>Сертифицировна по специальности челюстно-лицевая и эстетическая хирургия на базе МАПО г.
+                Санкт-Петербург.
+            </li>
+            <li>Регулярный участник съездов по <a href="#">Пластической хирургии</a> в г.Москва. Действительный член
+                Общества пластических, реконструктивных и эстетических хирургов России.
+            </li>
+        </ol>
+    </div>
+</div>
+
+</body>
+</html>

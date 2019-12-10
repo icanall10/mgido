@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/perfect-scrollbar.min.js"></script>
+    <script src="./js/chosen.jquery.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header-block">
+            <div class="header">
+                <div class="inner container flex flex-middle">
+                    <div class="menu-link-and-logo flex flex-middle">
+                        <div class="only-tablet-or-mobile">
+                            <a href="#" class="menu-link" data-mobile-menu-toggle>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts flex flex-middle">
+                        <div class="items flex only-desktop">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                        <div class="call-me only-desktop-or-tablet">
+                            <a href="#" data-ui-dialog-link="call-me-form">ЗАКАЗАТЬ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu only-desktop">
+                <div class="inner container">
+                    <ul class="flex">
+                        <li class="dropdown">
+                            <a href="#" class="toggle">Об институте</a>
+                            <ul>
+                                <li><a href="#">Информация о МГИДО</a></li>
+                                <li><a href="#">История создания</a></li>
+                                <li><a href="#">Документы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Образовательные программы</a></li>
+                        <li><a href="#">Анатомия</a></li>
+                        <li><a href="#">Наука</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход НМО</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu" data-mobile-menu>
+                <a href="#" class="close" data-mobile-menu-toggle>Закрыть</a>
+
+                <div class="container">
+                    <div class="links">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="toggle">Об институте</a>
+                                <ul>
+                                    <li><a href="#">Информация о МГИДО</a></li>
+                                    <li><a href="#">История создания</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Образовательные программы</a></li>
+                            <li><a href="#">Анатомия</a></li>
+                            <li><a href="#">Наука</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Вход НМО</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="only-mobile">
+                        <div class="call-me">
+                            <a href="#" data-ui-dialog-link="call-me-form">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="center">
+
+        <div class="container">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Медицинское образование</a></li>
+                    <li>Клиническая дерматоонкология</li>
+                </ul>
+            </div>
+
+            <h1>КЛИНИЧЕСКАЯ ДЕРМАТООНКОЛОГИЯ</h1>
+        </div>
+
+        <div class="program-info-block block block-margin-35">
+            <div class="container">
+
+                <div class="header-links flex flex-left">
+                    <a href="#" class="button" data-ui-dialog-link="order-form"
+                       data-order-name="КЛИНИЧЕСКАЯ ДЕРМАТООНКОЛОГИЯ">ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ</a>
+                    <a href="#" class="button" data-ui-dialog-link="call-me-form">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</a>
+                    <a href="#" class="button">КУПИТЬ</a>
+                </div>
+
+                <div class="inner shadow flex flex-nowrap">
+                    <div class="fields">
+                        <div class="item">
+                            <div class="name">Уровень образования</div>
+                            <div class="value">Повышение квалификации</div>
+                        </div>
+                        <div class="item">
+                            <div class="name">Форма обучения</div>
+                            <div class="value">Очная</div>
+                        </div>
+                        <div class="item">
+                            <div class="name">Продолжительность обучения</div>
+                            <div class="value">18 часов</div>
+                        </div>
+                        <div class="item">
+                            <div class="name">Даты проведения</div>
+                            <div class="value">с 23 по 25 сентября 2019</div>
+                        </div>
+                        <div class="item">
+                            <div class="name">Стоимость обучения</div>
+                            <div class="value">10 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="certificate-and-links">
+                        <div class="certificate">
+                            <div class="img shadow">
+                                <a href="./img/certificate.png" class="colorbox">
+                                    <img src="./img/certificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="program-tabs-block block" data-tabs>
+            <div class="container">
+
+                <div class="tabs">
+                    <ul>
+                        <li><a href="#" class="active" data-tab-link="program-tabs-1">О программе</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-2">Учебный план</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-3">Преподаватели</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-4">Процесс обучения</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-5">Отзывы</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-6">Лицензии</a></li>
+                        <li><a href="#" data-tab-link="program-tabs-7">Вопрос-ответ</a></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content active" data-tab-content="program-tabs-1">
+                    <div class="tab-inner">
+                        <div class="program-info flex flex-nowrap">
+                            <div class="text html-text shadow" data-scroll>
+                                <p>
+                                    Настоящая дополнительная профессиональная программа повышения квалификации рассчитана на
+                                    совершенствование компетенций, необходимых для профессиональной деятельности, и
+                                    повышение
+                                    профессионального уровня в рамках имеющейся квалификации врача - дерматовенеролога,
+                                    врача
+                                    онколога, врача акушера-гинеколога, врача-косметолога, врача общей практики в
+                                    соответствии с
+                                    установленными квалификационными требованиями и ФГОС.
+                                </p>
+                                <p>
+                                    Слушатели смогут развить имеющиеся профессиональные компетенции и приобрести
+                                    профессиональные
+                                    навыки диагностики и методов лечения новообразований кожи.
+                                </p>
+                                <p>
+                                    Для освоения Программы используется система дистанционного обучения и контроля ОЧУ
+                                    МГИДО.
+                                    Система предусматривает предоставление каждому обучающемуся методических материалов и
+                                    нормативно- правовой документации деятельности врача внесенных в мультимедийный контент,
+                                    а также интерактивный контент - фонд контрольно-оценочных заданий, позволяющий провести
+                                    текущий
+                                    контроль и итоговую аттестацию – тестирование в форме зачета.
+                                </p>
+                                <p>
+                                    Во время обучения слушатели знакомятся с дистанционными научными и методическими
+                                    материалами,
+                                    нормативно-правовой документацией деятельности врача. Изучают ряд тем на очных лекциях,
+                                    участвуют в мастер классе с демонстрациями применения различных методов диагностики и
+                                    лечения
+                                    новообразований кожи, а также закрепляют полученные знания на стажировке в
+                                    амбулаторно-поликлинических условиях.
+                                </p>
+                                <p>
+                                    После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                    вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                    всех модулей Программы с применением дистанционных образовательных технологий.
+                                </p>
+                                <p>
+                                    Программа состоит из заочных 5 учебных тематических модулей в количестве 18 учебных
+                                    часов.
+                                </p>
+                                <p>
+                                    Настоящая дополнительная профессиональная программа повышения квалификации рассчитана на
+                                    совершенствование компетенций, необходимых для профессиональной деятельности, и
+                                    повышение
+                                    профессионального уровня в рамках имеющейся квалификации врача - дерматовенеролога,
+                                    врача
+                                    онколога, врача акушера-гинеколога, врача-косметолога, врача общей практики в
+                                    соответствии с
+                                    установленными квалификационными требованиями и ФГОС.
+                                </p>
+                                <p>
+                                    Слушатели смогут развить имеющиеся профессиональные компетенции и приобрести
+                                    профессиональные
+                                    навыки диагностики и методов лечения новообразований кожи.
+                                </p>
+                                <p>
+                                    Для освоения Программы используется система дистанционного обучения и контроля ОЧУ
+                                    МГИДО.
+                                    Система предусматривает предоставление каждому обучающемуся методических материалов и
+                                    нормативно- правовой документации деятельности врача внесенных в мультимедийный контент,
+                                    а также интерактивный контент - фонд контрольно-оценочных заданий, позволяющий провести
+                                    текущий
+                                    контроль и итоговую аттестацию – тестирование в форме зачета.
+                                </p>
+                                <p>
+                                    Во время обучения слушатели знакомятся с дистанционными научными и методическими
+                                    материалами,
+                                    нормативно-правовой документацией деятельности врача. Изучают ряд тем на очных лекциях,
+                                    участвуют в мастер классе с демонстрациями применения различных методов диагностики и
+                                    лечения
+                                    новообразований кожи, а также закрепляют полученные знания на стажировке в
+                                    амбулаторно-поликлинических условиях.
+                                </p>
+                                <p>
+                                    После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                    вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                    всех модулей Программы с применением дистанционных образовательных технологий.
+                                </p>
+                            </div>
+                            <div class="img">
+                                <img src="./img/program-tab-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" data-tab-content="program-tabs-2">
+                    <div class="box-default shadow">
+                        <div class="html-text">
+                            <p>
+                                После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                всех модулей Программы с применением дистанционных образовательных технологий.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="program-tabs-3">
+                    <div class="teachers-list">
+                        <div class="item shadow flex flex-nowrap">
+                            <div class="img">
+                                <img src="./img/teacher1.png" alt="">
+                            </div>
+                            <div class="info flex flex-column">
+                                <div class="name-and-text">
+                                    <div class="name">
+                                        <a href="#">Авдеева Елена Леонидовна</a>
+                                    </div>
+                                    <div class="rank">Врач высшей категории. Пластический хирург, дерматокосметолог.</div>
+                                    <div class="specialization">Пластическая хирургия, эстетическая хирургия</div>
+                                </div>
+                                <div class="more">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item shadow flex flex-nowrap">
+                            <div class="img">
+                                <img src="./img/teacher1.png" alt="">
+                            </div>
+                            <div class="info flex flex-column">
+                                <div class="name-and-text">
+                                    <div class="name">
+                                        <a href="#">Авдеева Елена Леонидовна</a>
+                                    </div>
+                                    <div class="rank">Врач высшей категории. Пластический хирург, дерматокосметолог.</div>
+                                    <div class="specialization">Пластическая хирургия, эстетическая хирургия</div>
+                                </div>
+                                <div class="more">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item shadow flex flex-nowrap">
+                            <div class="img">
+                                <img src="./img/teacher1.png" alt="">
+                            </div>
+                            <div class="info flex flex-column">
+                                <div class="name-and-text">
+                                    <div class="name">
+                                        <a href="#">Авдеева Елена Леонидовна</a>
+                                    </div>
+                                    <div class="rank">Врач высшей категории. Пластический хирург, дерматокосметолог.</div>
+                                    <div class="specialization">Пластическая хирургия, эстетическая хирургия</div>
+                                </div>
+                                <div class="more">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item shadow flex flex-nowrap">
+                            <div class="img">
+                                <img src="./img/teacher1.png" alt="">
+                            </div>
+                            <div class="info flex flex-column">
+                                <div class="name-and-text">
+                                    <div class="name">
+                                        <a href="#">Авдеева Елена Леонидовна</a>
+                                    </div>
+                                    <div class="rank">Врач высшей категории. Пластический хирург, дерматокосметолог.</div>
+                                    <div class="specialization">Пластическая хирургия, эстетическая хирургия</div>
+                                </div>
+                                <div class="more">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="program-tabs-4">
+                    <div class="box-default shadow">
+                        <div class="html-text">
+                            <p>
+                                Во время обучения слушатели знакомятся с дистанционными научными и методическими
+                                материалами,
+                                нормативно-правовой документацией деятельности врача. Изучают ряд тем на очных лекциях,
+                                участвуют в мастер классе с демонстрациями применения различных методов диагностики и
+                                лечения
+                                новообразований кожи, а также закрепляют полученные знания на стажировке в
+                                амбулаторно-поликлинических условиях.
+                            </p>
+                            <p>
+                                После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                всех модулей Программы с применением дистанционных образовательных технологий.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="program-tabs-5">
+                    <div class="reviews-list">
+                        <div class="item">
+                            <div class="header flex flex-left">
+                                <div class="name">Елена Леонидовна</div>
+                                <div class="date">12.11.2019</div>
+                            </div>
+                            <div class="review-text">
+                                После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                всех модулей Программы с применением дистанционных образовательных технологий.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header flex flex-left">
+                                <div class="name">Елена Леонидовна</div>
+                                <div class="date">12.11.2019</div>
+                            </div>
+                            <div class="review-text">
+                                После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                всех модулей Программы с применением дистанционных образовательных технологий.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header flex flex-left">
+                                <div class="name">Елена Леонидовна</div>
+                                <div class="date">12.11.2019</div>
+                            </div>
+                            <div class="review-text">
+                                После освоения части материалов проходят текущий контроль в виде ответов на контрольные
+                                вопросы и итоговую аттестацию в форме зачета, отвечая на тестовые вопросы после освоения
+                                всех модулей Программы с применением дистанционных образовательных технологий.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="program-tabs-6">
+                    <div class="certificates-list">
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="./img/cert.jpg" class="colorbox" rel="certificates-list-item">
+                                <img src="./img/cert-thumb.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="program-tabs-7">
+                    <div class="faq-list">
+                        <div class="item">
+                            <div class="question">Защита пользователей от кибератаки через видеозвонок</div>
+                            <div class="answer">
+                                Mgido заботится о конфиденциальности и безопасности своих
+                                пользователей. В WhatsApp вы часто делитесь самым личным, и именно поэтому мы по
+                                умолчанию предоставляем сквозное шифрование для всех сообщений и звонков. Атака была
+                                специально разработана, чтобы получить доступ к сообщениям после их расшифровки на
+                                заражённом устройстве, используя факторы уязвимости приложения и операционные системы
+                                мобильных телефонов.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="question">Безопасность и конфиденциальность</div>
+                            <div class="answer">
+                                В мае 2019 года мы остановили сложнейшую кибератаку, в ходе которой преступники
+                                воспользовались нашей системой видеозвонков, чтобы отправить вредоносную программу на
+                                мобильные устройства некоторых пользователей. Пользователям даже не требовалось
+                                отвечать на входящие звонки, чтобы стать жертвой атаки. Мы незамедлительно обновили
+                                защиту нашей системы и выпустили обновление, чтобы обезопасить пользователей. В
+                                настоящее время мы предпринимаем дополнительные меры на основании полученной информации.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="question">Изменение номера телефона</div>
+                            <div class="answer">
+                                Функция "Изменить номер" позволит вам изменить номер телефона, привязанный к вашему
+                                аккаунту на том же устройстве. Данная функция должна быть использована до
+                                того, как вы подтвердите свой новый номер.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-reviews-block block">
+            <div class="container">
+
+                <div class="block-title">Отзывы о мероприятии</div>
+                <div class="items flex flex-center">
+                    <div class="item">
+                        <a href="#">
+                            <img src="./img/facebook.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./img/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question-block block">
+            <div class="inner container">
+                <div class="block-title">ОБРАТНАЯ СВЯЗЬ</div>
+                <div class="text">Оставьте свои контакты и наши специалисты свяжутся с Вами</div>
+
+                <form action="#" class="question">
+                    <div class="form-group flex flex-nowrap">
+                        <div class="form-group item-info">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Имя*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="E-mail*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Телефон*">
+                            </div>
+                        </div>
+                        <div class="form-group item-comment">
+                            <textarea name="comment" rows="5" placeholder="Комментарий или вопрос"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group flex flex-nowrap flex-middle">
+                        <div class="form-group item-rules">
+                            <input type="checkbox" id="question-form-rules" value="1">
+                            <label for="question-form-rules">Согласие на обработку персональных данных</label>
+                        </div>
+                        <div class="form-group item-submit">
+                            <button type="submit">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="footer-text">
+                    Также Вы можете приехать к нам в институт и узнать подробную информацию<br>
+                    Подробная информация в разделе <a href="#">Контакты</a> <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="footer-block">
+            <div class="header">
+                <div class="container inner flex flex-nowrap">
+                    <div class="logo-and-info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo-footer.png" alt="">
+                        </a>
+                        <div class="info">
+                            <div class="license">
+                                Лицензия на образовательную деятельность № 00001
+                            </div>
+                            <div class="contacts">
+                                Адрес института: Москва, ул. Перерва, д.52, стр.1<br>
+                                Контактный телефон: +7 (499) 702-54-54<br>
+                                E-mail: Info@mgido.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu flex flex-nowrap">
+                        <div class="item">
+                            <div class="name">Институт</div>
+                            <ul>
+                                <li><a href="#">О Нас</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Наука</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">НМО</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Сведения об организации</div>
+                            <ul>
+                                <li><a href="#">Условия соглашения</a></li>
+                                <li><a href="#">Политика безопасности</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Оплата обучения</a></li>
+                                <li><a href="#">Сведения об образовательной организации</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Образовательные программы</div>
+                            <ul>
+                                <li><a href="#">Медицинское образование</a></li>
+                                <li><a href="#">Непрерывное медицинское образование (НМО)</a></li>
+                                <li><a href="#">Мастер-классы</a></li>
+                                <li><a href="#">Анатомия для компаний и мероприятий</a></li>
+                                <li><a href="#">Анатомия для врачей</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container flex flex-middle">
+                    <div class="copyright">© 2019 | mgido.com</div>
+                    <div class="social-networks flex">
+                        <a href="#" target="_blank" class="item item-vk">vk</a>
+                        <a href="#" target="_blank" class="item item-fb">fb</a>
+                        <a href="#" target="_blank" class="item item-instagram">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-ui-dialog="call-me-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Обратный звонок"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="order-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Записаться на обучение"
+>
+    <form action="#" class="call-me-form">
+        <input type="hidden" name="order_name">
+        <div class="form-inner">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

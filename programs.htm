@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/perfect-scrollbar.min.js"></script>
+    <script src="./js/chosen.jquery.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header-block">
+            <div class="header">
+                <div class="inner container flex flex-middle">
+                    <div class="menu-link-and-logo flex flex-middle">
+                        <div class="only-tablet-or-mobile">
+                            <a href="#" class="menu-link" data-mobile-menu-toggle>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts flex flex-middle">
+                        <div class="items flex only-desktop">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                        <div class="call-me only-desktop-or-tablet">
+                            <a href="#" data-ui-dialog-link="call-me-form">ЗАКАЗАТЬ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu only-desktop">
+                <div class="inner container">
+                    <ul class="flex">
+                        <li class="dropdown">
+                            <a href="#" class="toggle">Об институте</a>
+                            <ul>
+                                <li><a href="#">Информация о МГИДО</a></li>
+                                <li><a href="#">История создания</a></li>
+                                <li><a href="#">Документы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Образовательные программы</a></li>
+                        <li><a href="#">Анатомия</a></li>
+                        <li><a href="#">Наука</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход НМО</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu" data-mobile-menu>
+                <a href="#" class="close" data-mobile-menu-toggle>Закрыть</a>
+
+                <div class="container">
+                    <div class="links">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="toggle">Об институте</a>
+                                <ul>
+                                    <li><a href="#">Информация о МГИДО</a></li>
+                                    <li><a href="#">История создания</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Образовательные программы</a></li>
+                            <li><a href="#">Анатомия</a></li>
+                            <li><a href="#">Наука</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Вход НМО</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="only-mobile">
+                        <div class="call-me">
+                            <a href="#" data-ui-dialog-link="call-me-form">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="center">
+
+        <div class="container">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li>Образовательные программы</li>
+                </ul>
+            </div>
+
+            <h1>Образовательные программы</h1>
+
+            <div class="page-header-text">
+                Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+                Министерством Здравоохранения Российской Федерации участник непрерывного медицинского образования.
+            </div>
+        </div>
+
+        <div class="mb-test-block block">
+            <div class="container">
+                <div class="inner flex flex-nowrap flex-middle">
+                    <div class="info">
+                        <div class="title">Пройдите тест за 1 минуту</div>
+                        <div class="text-1">
+                            и узнайте какая программаподойдет именно Вам
+                        </div>
+                        <div class="text-2">
+                            Ответив на вопросы теста, вы получите подходящий список прграмм + скидку на обучение
+                        </div>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="button button-white">ПРОЙТИ ТЕСТ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="program-filters-block">
+            <div class="container">
+                <form action="#" class="filters-form">
+                    <div class="form-inner flex flex-left flex-middle">
+                        <div class="form-group item-count">По вашему запросу найдено 17 программ</div>
+                        <div class="form-group flex flex-middle">
+                            <label for="#">Длительность в часах</label>
+                            <select name="duration">
+                                <option value="1">18 часов</option>
+                                <option value="2">22 часа</option>
+                                <option value="3">24 часа</option>
+                            </select>
+                        </div>
+                        <div class="form-group flex flex-middle">
+                            <label for="#">Сортировать по</label>
+                            <select name="sort">
+                                <option value="price">Цене</option>
+                                <option value="name">Названию</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="programs-list">
+                <div class="item shadow flex flex-nowrap">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/program1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="type">Мастер-класс</div>
+                        <div class="name">
+                            <a href="#">Основы озонотерапии в клинической практике</a>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <div class="label">Дата:</div>
+                                <div class="value">с 12.10.2019 по 18.10.2019</div>
+                            </div>
+                            <div class="field">
+                                <div class="label">Длительность:</div>
+                                <div class="value">18 часов</div>
+                            </div>
+                            <div class="field">
+                                <div class="label">Баллы:</div>
+                                <div class="value">10</div>
+                            </div>
+                            <div class="field">
+                                <div class="label">Форма обучения:</div>
+                                <div class="value">очная</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-and-buy flex flex-column">
+                        <div class="price-and-text">
+                            <div class="price flex flex-right flex-middle">
+                                <div class="value">1 400</div>
+                                <div class="currency">₽</div>
+                            </div>
+                            <div class="text">за программу</div>
+                        </div>
+                        <div class="share-and-more flex flex-nowrap">
+                            <div class="share">
+                                <a href="http://mgido.com/about/"
+                                   data-title="Основы озонотерапии в клинической практике"
+                                   data-desc="Основы озонотерапии в клинической практике"
+                                   class="fb-share"
+                                ></a>
+                            </div>
+                            <div class="more">
+                                <a href="#" class="button">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item shadow flex flex-nowrap">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/program1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="type">Мастер-класс</div>
+                        <div class="name">
+                            <a href="#">Основы озонотерапии в клинической практике</a>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <div class="label">Длительность:</div>
+                                <div class="value">18 часов</div>
+                            </div>
+                            <div class="field">
+                                <div class="label">Вариации по часам:</div>
+                                <div class="value">18 часов, 6 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-and-buy flex flex-column">
+                        <div class="price-and-text">
+                            <div class="price flex flex-right flex-middle">
+                                <div class="value">1 400</div>
+                                <div class="currency">₽</div>
+                            </div>
+                            <div class="text">за программу</div>
+                        </div>
+                        <div class="share-and-more flex flex-nowrap">
+                            <div class="share">
+                                <a href="http://mgido.com/about/"
+                                   data-title="Основы озонотерапии в клинической практике"
+                                   data-desc="Основы озонотерапии в клинической практике"
+                                   class="fb-share"
+                                ></a>
+                            </div>
+                            <div class="more">
+                                <a href="#" class="button">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item shadow flex flex-nowrap">
+                    <div class="img">
+                        <a href="#">
+                            <img src="./img/program1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="type">Мастер-класс</div>
+                        <div class="name">
+                            <a href="#">Основы озонотерапии в клинической практике</a>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <div class="label">Длительность:</div>
+                                <div class="value">18 часов</div>
+                            </div>
+                            <div class="field">
+                                <div class="label">Вариации по часам:</div>
+                                <div class="value">18 часов, 6 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-and-buy flex flex-column">
+                        <div class="price-and-text">
+                            <div class="price flex flex-right flex-middle">
+                                <div class="value">1 400</div>
+                                <div class="currency">₽</div>
+                            </div>
+                            <div class="text">за программу</div>
+                        </div>
+                        <div class="share-and-more flex flex-nowrap">
+                            <div class="share">
+                                <a href="http://mgido.com/about/"
+                                   data-title="Основы озонотерапии в клинической практике"
+                                   data-desc="Основы озонотерапии в клинической практике"
+                                   class="fb-share"
+                                ></a>
+                            </div>
+                            <div class="more">
+                                <a href="#" class="button">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="doctors-block block">
+            <div class="container">
+                <div class="block-title line">Преподавательский состав</div>
+                <div class="doctors-list owl-carousel">
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor1.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor2.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor3.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor3.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor2.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor1.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <a href="#"><img src="./img/doctor2.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <a href="#">
+                                    <span>АВДЕЕВА</span>
+                                    Елена Леонидовна
+                                </a>
+                            </div>
+                            <div class="work">Пластический хирург, косметолог</div>
+                            <div class="experience">Стаж: 23 года</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-footer-text block">
+                <p>
+                    Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+                    Министерством Здравоохранения Российской Федерации участник непрерывного медицинского образования.
+                </p>
+                <p>
+                    Медико-гуманитарный институт дополнительного образования (МГИДО) - официально зарегистрированный
+                    Министерством Здравоохранения Российской Федерации участник непрерывного медицинского образования.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="footer-block">
+            <div class="header">
+                <div class="container inner flex flex-nowrap">
+                    <div class="logo-and-info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo-footer.png" alt="">
+                        </a>
+                        <div class="info">
+                            <div class="license">
+                                Лицензия на образовательную деятельность № 00001
+                            </div>
+                            <div class="contacts">
+                                Адрес института: Москва, ул. Перерва, д.52, стр.1<br>
+                                Контактный телефон: +7 (499) 702-54-54<br>
+                                E-mail: Info@mgido.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu flex flex-nowrap">
+                        <div class="item">
+                            <div class="name">Институт</div>
+                            <ul>
+                                <li><a href="#">О Нас</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Наука</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">НМО</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Сведения об организации</div>
+                            <ul>
+                                <li><a href="#">Условия соглашения</a></li>
+                                <li><a href="#">Политика безопасности</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Оплата обучения</a></li>
+                                <li><a href="#">Сведения об образовательной организации</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Образовательные программы</div>
+                            <ul>
+                                <li><a href="#">Медицинское образование</a></li>
+                                <li><a href="#">Непрерывное медицинское образование (НМО)</a></li>
+                                <li><a href="#">Мастер-классы</a></li>
+                                <li><a href="#">Анатомия для компаний и мероприятий</a></li>
+                                <li><a href="#">Анатомия для врачей</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container flex flex-middle">
+                    <div class="copyright">© 2019 | mgido.com</div>
+                    <div class="social-networks flex">
+                        <a href="#" target="_blank" class="item item-vk">vk</a>
+                        <a href="#" target="_blank" class="item item-fb">fb</a>
+                        <a href="#" target="_blank" class="item item-instagram">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-ui-dialog="call-me-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Обратный звонок"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

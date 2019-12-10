@@ -1,0 +1,396 @@
+@media screen and (max-width: 768px) {
+    html body {
+
+    }
+    .container {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+    .only-table {
+        display: none;
+    }
+    .only-mobile {
+        display: block;
+    }
+
+    .only-tablet-or-mobile {
+        display: block;
+    }
+    .only-desktop-or-tablet {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .block {
+        margin: 30px 0;
+    }
+    .block-margin-35 {
+        margin: 20px 0;
+    }
+
+    .block-title {
+        font-size: 23px;
+    }
+
+    .slider-block {
+        display: none;
+    }
+
+    .menu-link {
+        width: 30px;
+    }
+    .menu-link span {
+        height: 3px;
+        margin-bottom: 6px;
+    }
+    .menu-link span:last-child {
+        margin-bottom: 0;
+    }
+
+    .header-block {
+        margin-bottom: 20px;
+    }
+    .header-block .logo {
+        margin-left: 20px;
+        overflow: hidden;
+        display: block;
+    }
+    .header-block .logo img {
+        width: 130px;
+    }
+
+    .header-block .mobile-menu .call-me {
+        margin: 20px 0;
+        display: flex;
+    }
+    .header-block .mobile-menu .contacts {
+        margin-top: 0;
+    }
+
+    .mobile-menu {
+        padding: 20px 0;
+    }
+
+    .calendar-list .item {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .calendar-list .item:last-child {
+        margin-bottom: 0;
+    }
+
+    .tabs {
+        margin-bottom: 20px;
+    }
+
+    .news-list {
+        display: block;
+    }
+    .news-list .item {
+        width: auto;
+        margin: 0 0 20px;
+    }
+    .news-list .item:last-child {
+        margin-bottom: 0;
+    }
+    .about-block .content {
+        display: block;
+    }
+    .about-block .img {
+        width: auto;
+        min-width: 0;
+    }
+    .about-block .img img {
+        border-radius: 10px 10px 0 0;
+    }
+    .about-block .info {
+        width: auto;
+        padding: 20px;
+    }
+    .about-block .footer {
+        display: block;
+    }
+    .about-block .signature {
+        margin-bottom: 10px;
+    }
+    .about-block .signature img {
+        max-width: 200px;
+        height: auto;
+    }
+    .about-block .links {
+        display: block;
+    }
+    .about-block .links a {
+        margin: 0 0 10px;
+    }
+    .about-block .links a:last-child {
+        margin-bottom: 0;
+    }
+    .partners-list .item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .mb-test-block .inner {
+        display: block;
+    }
+    .mb-test-block .link {
+        margin: 20px 0 0;
+    }
+    .mb-test-block .link a {
+        display: block;
+        text-align: center;
+    }
+    .question-block .inner {
+        padding: 20px;
+    }
+    .question-block .item-info,
+    .question-block .item-comment {
+        width: auto;
+        padding-left: 0;
+    }
+    .question-block .item-comment {
+        margin-top: 20px;
+    }
+    .question-block form > .flex {
+        display: block;
+    }
+    .question-block .item-submit {
+        margin-top: 20px;
+        padding-left: 0;
+        min-width: 0;
+    }
+    .question-block .footer-text {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .ui-dialog {
+        max-width: 100%;
+    }
+
+    .individual-material-block .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .individual-material-block .item:last-child {
+        margin-bottom: 0;
+    }
+    .specialities-block .col {
+        width: 100%;
+    }
+    .specialities-block .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .training-list {
+        display: block;
+    }
+    .training-list .item {
+        width: auto;
+        margin: 0 0 20px;
+    }
+    .training-list .item:last-child {
+        margin-bottom: 0;
+    }
+
+    .safe-medicine-block .inner {
+        display: block;
+    }
+
+    .safe-medicine-block .img {
+        width: 100%;
+        min-width: 0;
+        margin: 20px 0 0;
+    }
+    .safe-medicine-block .img img {
+        width: 100%;
+        height: auto;
+    }
+    .educational-technology-block .item {
+        font-size: 18px;
+    }
+
+    .footer-block .header .logo-and-info {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .footer-block .header {
+        padding: 20px 0;
+    }
+    .footer-block .header .logo {
+        margin: 0 0 20px;
+    }
+    .footer-block .header .menu {
+        display: block;
+    }
+    .footer-block .header .menu .item {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .footer-block .header .menu .item:last-child {
+        margin-bottom: 0;
+    }
+
+    .doctor-page .img {
+        float: none;
+        margin: 0 0 20px;
+    }
+    .doctor-page .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .doctors-list {
+        display: block;
+    }
+    .doctors-list .item,
+    .doctors-list .item:nth-child(5n) {
+        width: auto;
+        margin: 0 0 30px;
+    }
+    .doctors-list .item:last-child {
+        margin-bottom: 0;
+    }
+    .doctors-list .item .img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    @media (min-width: 450px) {
+        .doctors-list {
+            display: flex;
+            justify-content: space-between;
+        }
+        .doctors-list .item,
+        .doctors-list .item:nth-child(5n) {
+            width: 48%;
+        }
+        .doctors-list.owl-carousel .item,
+        .doctors-list.owl-carousel .item:nth-child(5n) {
+            width: auto;
+        }
+        .doctors-list:after {
+            content: '';
+            height: 1px;
+            flex: auto;
+        }
+    }
+
+    .program-info-block .header-links {
+        display: block;
+    }
+    .program-info-block .header-links a {
+        margin: 0 0 10px;
+        display: block;
+        text-align: center;
+    }
+    .program-info-block .header-links a:last-child {
+        margin-bottom: 0;
+    }
+    .program-info-block .fields {
+        font-size: 16px;
+    }
+    .program-info-block .inner {
+        padding: 20px;
+        display: block;
+    }
+    .program-info-block .certificate {
+        margin: 20px 0 0;
+    }
+    .program-info-block .certificate img {
+        width: 100%;
+        height: auto;
+    }
+
+    .program-tabs-block .program-info {
+        display: block;
+    }
+    .program-tabs-block .program-info .img {
+        width: auto;
+        min-width: 0;
+        margin-top: 20px;
+    }
+    .program-tabs-block .program-info .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .certificates-list {
+        display: block;
+    }
+    .certificates-list .item {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .certificates-list .item img {
+        width: 100%;
+        height: auto;
+    }
+    .certificates-list .item:last-child {
+        margin-bottom: 0;
+    }
+
+    .program-filters-block {
+        margin-bottom: 20px;
+    }
+    .filters-form .form-group {
+        display: block;
+    }
+    .filters-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .filters-form .form-inner > .form-group {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .filters-form .form-inner > .form-group:last-child {
+        margin-bottom: 0;
+    }
+    .filters-form .form-inner {
+        display: block;
+    }
+
+    .programs-list .item {
+        display: block;
+    }
+
+    .programs-list .item .img {
+        width: 100%;
+        display: block;
+    }
+    .programs-list .item .img img {
+        border-radius: 7px 7px 0 0;
+    }
+    .programs-list .item .price-and-buy {
+        width: auto;
+        min-width: 0;
+        display: block;
+    }
+    .programs-list .item .price-and-buy .text {
+        text-align: center;
+    }
+    .programs-list .item .price {
+        justify-content: center;
+    }
+    .programs-list .item .info {
+        width: auto;
+        padding: 20px 20px 0;
+    }
+
+    .footer-block .footer {
+        font-size: 16px;
+    }
+
+
+}

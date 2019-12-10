@@ -1,0 +1,306 @@
+@media screen and (max-width: 1200px) {
+    html body {
+
+    }
+    .container {
+        width: auto;
+        margin: 0 30px;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+    .only-table {
+        display: block;
+    }
+    .only-mobile {
+        display: none;
+    }
+
+    .only-tablet-or-mobile {
+        display: block;
+    }
+    .only-desktop-or-tablet {
+        display: block;
+    }
+
+    .block {
+        margin: 30px 0;
+    }
+    .block-margin-35 {
+        margin: 30px 0;
+    }
+
+    .block-title {
+        font-size: 28px;
+    }
+
+    .header-block {
+        border-bottom: 2px solid #b5b5b5;
+        margin-bottom: 30px;
+    }
+
+    .menu-link {
+        display: block;
+        width: 40px;
+    }
+    .menu-link span {
+        display: block;
+        margin-bottom: 8px;
+        height: 4px;
+        background: #222;
+    }
+    .menu-link span:last-child {
+        margin-bottom: 0;
+    }
+
+    .header-block .logo {
+        margin-left: 30px;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        z-index: 30;
+        left: 0;
+        top: 74px;
+        right: 0;
+        background: #fff;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 30px 0;
+        overflow: auto;
+        overflow-x: hidden;
+
+        -webkit-box-shadow: 0 3px 3px 0 #ccc;
+        box-shadow: 0 3px 3px 0 #ccc;
+    }
+    .mobile-menu .links {
+        font-size: 20px;
+    }
+    .mobile-menu .links a {
+        display: block;
+        padding: 12px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .mobile-menu .links li li {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .header-block .mobile-menu .contacts {
+        margin-top: 25px;
+    }
+    .header-block .mobile-menu .contacts .item {
+        margin-left: 0;
+        border: none;
+    }
+
+    body.mobile-menu-open .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu .close {
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        background: url(../img/img.png) -60px -60px #fff;
+        text-indent: -9999px;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+
+        transform: scale(0.8);
+    }
+
+    .slider-block .item {
+        height: auto;
+    }
+    .slider-block .item .info .text {
+        font-size: 38px;
+    }
+
+    .calendar-list .item {
+        width: 50%;
+    }
+    .calendar-list .item .day {
+        font-size: 20px;
+    }
+    .calendar-list .item .date {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+    }
+    .calendar-list .item .name a {
+        font-size: 16px;
+    }
+    .news-list .item {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about-block .img img {
+        height: auto;
+    }
+    .about-block .img {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .footer-block .header .logo {
+        margin-right: 30px;
+    }
+    .footer-block .header .logo img {
+        max-width: 180px;
+        height: auto;
+    }
+    .footer-block .inner {
+        display: block;
+    }
+    .footer-block .header .logo-and-info {
+        width: auto;
+        min-width: 0;
+        display: flex;
+        margin: 0;
+    }
+    .footer-block .header .menu .item {
+        padding-right: 30px;
+    }
+    .footer-block .header .menu .item:last-child {
+        padding-right: 0;
+    }
+
+    .tabs {
+        overflow: auto;
+        max-width: 100%;
+    }
+    .tabs a {
+        font-size: 17px;
+    }
+    .tabs li {
+        margin-right: 25px;
+    }
+    .tabs li:last-child {
+        margin-right: 0;
+    }
+
+    .breadcrumb {
+        margin-top: 30px;
+    }
+    .breadcrumb ul {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    .page-header-text,
+    .page-footer-text {
+        font-size: 16px;
+    }
+
+    .mb-test-block .info .title {
+        font-size: 25px;
+    }
+    .mb-test-block .info .text-1 {
+        font-size: 20px;
+    }
+    .mb-test-block .info .text-2 {
+        font-size: 16px;
+    }
+
+    .filters-form .form-inner > .form-group {
+        margin-right: 30px;
+    }
+    .filters-form .form-inner > .item-count {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .filters-form {
+        padding-bottom: 18px;
+    }
+    .programs-list .item {
+        margin-bottom: 30px;
+    }
+    .programs-list .item:last-child {
+        margin-bottom: 0;
+    }
+    .programs-list .item .img {
+        width: 140px;
+        min-width: 140px;
+
+        display: none;
+    }
+    .programs-list .item .img img {
+        width: 100%;
+        height: auto;
+    }
+    .programs-list .item .type {
+        font-size: 16px;
+    }
+    .programs-list .item .fields .field {
+        font-size: 15px;
+    }
+    .programs-list .item .name {
+        margin-bottom: 10px;
+    }
+    .programs-list .item .name a {
+        font-size: 20px;
+    }
+    .programs-list .item .price {
+        font-size: 30px;
+    }
+    .programs-list .item .more {
+        margin-top: 15px;
+    }
+
+    .doctors-list .item,
+    .doctors-list .item:nth-child(5n) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .certificates-list .item {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .individual-material-block .block-title {
+        display: block;
+    }
+    .individual-material-block .block-title .button {
+        margin: 10px 0;
+    }
+    .individual-material-block .item {
+        width: 31%;
+    }
+    .individual-material-block .item .img img {
+        width: 100%;
+        height: auto;
+    }
+    .individual-material-block .item .name {
+        font-size: 18px;
+    }
+
+    .specialities-block .col {
+        width: 50%;
+        margin-bottom: 8px;
+    }
+    .training-list .item {
+        width: 200px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .educational-technology-block .item {
+        font-size: 22px;
+    }
+
+    .slider-block .item .info .text {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .schedule-block .table {
+        overflow: auto;
+        max-width: 100%;
+    }
+
+}

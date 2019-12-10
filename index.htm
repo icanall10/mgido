@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="./js/colorbox/colorbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/perfect-scrollbar.min.js"></script>
+    <script src="./js/chosen.jquery.min.js"></script>
+    <script src="./js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="./js/helpers.js"></script>
+    <script src="./js/js.js"></script>
+
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+</head>
+<body>
+
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header-block">
+            <div class="header">
+                <div class="inner container flex flex-middle">
+                    <div class="menu-link-and-logo flex flex-middle">
+                        <div class="only-tablet-or-mobile">
+                            <a href="#" class="menu-link" data-mobile-menu-toggle>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts flex flex-middle">
+                        <div class="items flex only-desktop">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                        <div class="call-me only-desktop-or-tablet">
+                            <a href="#" data-ui-dialog-link="call-me-form">ЗАКАЗАТЬ ЗВОНОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu only-desktop">
+                <div class="inner container">
+                    <ul class="flex">
+                        <li class="dropdown">
+                            <a href="#" class="toggle">Об институте</a>
+                            <ul>
+                                <li><a href="#">Информация о МГИДО</a></li>
+                                <li><a href="#">История создания</a></li>
+                                <li><a href="#">Документы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Образовательные программы</a></li>
+                        <li><a href="#">Анатомия</a></li>
+                        <li><a href="#">Наука</a></li>
+                        <li><a href="#">Пресс-центр</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход НМО</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu" data-mobile-menu>
+                <a href="#" class="close" data-mobile-menu-toggle>Закрыть</a>
+
+                <div class="container">
+                    <div class="links">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="toggle">Об институте</a>
+                                <ul>
+                                    <li><a href="#">Информация о МГИДО</a></li>
+                                    <li><a href="#">История создания</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Образовательные программы</a></li>
+                            <li><a href="#">Анатомия</a></li>
+                            <li><a href="#">Наука</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Вход НМО</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="only-mobile">
+                        <div class="call-me">
+                            <a href="#" data-ui-dialog-link="call-me-form">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="items">
+                            <div class="item item-address flex flex-middle">
+                                Москва,<br>
+                                ул. Перерва, д. 52, стр. 1
+                            </div>
+                            <div class="item item-work-time flex flex-middle">
+                                Пн-Пт 09:00-19:00
+                            </div>
+                            <div class="item item-phone flex flex-middle">
+                                +7 (499) 702-54-54
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="center">
+
+        <div class="slider-block">
+            <div class="container">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="text">
+                                Мы встраиваем знания<br>
+                                в Вашу ДНК
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="text">
+                                Мы встраиваем знания<br>
+                                в Вашу ДНК 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="./img/slide1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="text">
+                                Мы встраиваем знания<br>
+                                в Вашу ДНК 3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calendar-block block" data-tabs>
+            <div class="container">
+                <div class="block-title">КАЛЕНДАРЬ СОБЫТИЙ</div>
+                <div class="tabs">
+                    <ul>
+                        <li><a href="#" class="active" data-tab-link="calendar-tab-3">Мастер-классы</a></li>
+                        <li><a href="#" data-tab-link="calendar-tab-4">Анатомия</a></li>
+                        <li><a href="#" data-tab-link="calendar-tab-2">НМО</a></li>
+                    </ul>
+                    <div class="more">
+                        <a href="#">Все события &gt;</a>
+                    </div>
+                </div>
+                <div class="tab-content active" data-tab-content="calendar-tab-1">
+                    <div class="calendar-list flex flex-left">
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">22-31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="calendar-tab-2">
+                    <div class="calendar-list flex flex-left">
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="calendar-tab-3">
+                    <div class="calendar-list flex flex-left">
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="calendar-tab-4">
+                    <div class="calendar-list flex flex-left">
+                        <div class="item flex flex-nowrap">
+                            <div class="date">
+                                <div class="day">31</div>
+                                <div class="month">АВГ</div>
+                                <div class="year">2019</div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <a href="#">Современные подходы коррекции возрастных инволюций в косметологии</a>
+                                </div>
+                                <div class="ball">18 ЗЕТ</div>
+                                <div class="line"></div>
+                                <div class="duration">18 часов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="press-center-block" data-tabs>
+            <div class="container">
+                <div class="block-title">ПРЕСС-ЦЕНТР</div>
+                <div class="tabs">
+                    <ul>
+                        <li><a href="#" class="active" data-tab-link="press-center-tab-1">Новости</a></li>
+                        <li><a href="#" data-tab-link="press-center-tab-2">Новости законодательства</a></li>
+                        <li><a href="#" data-tab-link="press-center-tab-3">Ближайшие мероприятия</a></li>
+                        <li><a href="#" data-tab-link="press-center-tab-4">Видео-фото</a></li>
+                    </ul>
+                </div>
+                <div class="tab-content active" data-tab-content="press-center-tab-1">
+                    <div class="news-list">
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="press-center-tab-2">
+                    <div class="news-list">
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="press-center-tab-3">
+                    <div class="news-list">
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab-content="press-center-tab-4">
+                    <div class="news-list">
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-and-info">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="./img/press-center.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <div class="date">23 АВГ, 2019</div>
+                                    <div class="name">
+                                        <a href="#">Приглашаем на занятия!</a>
+                                    </div>
+                                    <div class="text">
+                                        Уважаемые коллеги! Доступно расписание программ и
+                                        мастер-классов на август 2019. Запись открыта
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="share">
+                                    <a href="http://mgido.com/about/"
+                                       data-title="Приглашаем на занятия!"
+                                       data-desc="Уважаемые коллеги! Доступно расписание программ и мастер-классов на август 2019. Запись открыта"
+                                       class="fb-share"
+                                    ></a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">
+                                        подробнее <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-block block">
+            <div class="container">
+                <div class="block-title line">ОБ ИНСТИТУТЕ МГИДО</div>
+                <div class="content flex flex-nowrap">
+                    <div class="img">
+                        <img src="./img/about.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="text">
+                            <p>Дорогие коллеги!</p>
+                            <p>
+                                От всей души поздравляю вас с началом обучения в Медико-гуманитарном институте
+                                дополнительного образования (МГИДО).
+                            </p>
+                            <p>
+                                Мы с вами врачи. Наша профессия требует постоянного обновления знаний и
+                                совершенствования. Ведь настоящий профессионал всегда эрудирован, знает мировые
+                                тенденции диагностики и лечения, в курсе последних клинических исследований и научных
+                                разработок.
+                            </p>
+                            <p>
+                                Сегодня, как никогда, требования к специалистам высоки и им нужно соответствовать, чтобы
+                                удовлетворить все запросы наших пациентов.
+                            </p>
+                            <p>
+                                Именно поэтому я вижу миссию МГИДО в том, чтобы вывести эстетический бизнес на более
+                                высокий уровень, дать врачу возможность получить самые передовые знания, перенять опыт
+                                ведущих российских и международных специалистов.
+                            </p>
+                            <p>
+                                Я уверен – именно от профессиональных навыков врача, от его умения проконсультировать
+                                пациента, подобрать качественные препараты, правильно сочетать различные процедуры,
+                                назначить долгосрочный план лечения зависит успех клиники и счастье пациентов.
+                            </p>
+                            <p>Добро пожаловать!</p>
+                        </div>
+                        <div class="footer flex">
+                            <div class="signature">
+                                <img src="./img/signature.png" alt="">
+                            </div>
+                            <div class="author">
+                                <div class="name">Терентьев А.Ю.</div>
+                                <div class="work">
+                                    Директор Медико-гуманитарного института дополнительного образования,<br>
+                                    Главный врач медцентра «Марьино»,<br>
+                                    Врач высшей категории<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="links flex flex-right">
+                    <a href="#" class="button">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a>
+                    <a href="#" class="button">ПРЕПОДАВАТЕЛИ</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners-block block">
+            <div class="container">
+                <div class="block-title line">НАШИ ПАРТНЕРЫ</div>
+                <div class="partners-list flex flex-left">
+                    <div class="item" title="Российский национальный исследовательский медицинский университет имени Н. И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner1.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item" title="Центр аккредитации РНИМУ им. Н.И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner2.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item" title="Российский национальный исследовательский медицинский университет имени Н. И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner3.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item" title="Центр аккредитации РНИМУ им. Н.И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner4.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item" title="Российский национальный исследовательский медицинский университет имени Н. И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner5.png" alt="">
+                        </div>
+                        <div class="name">
+                            Российский национальный исследовательский медицинский университет имени Н. И. Пирогова
+                        </div>
+                    </div>
+                    <div class="item" title="Центр аккредитации РНИМУ им. Н.И. Пирогова">
+                        <div class="img">
+                            <img src="./img/partner6.png" alt="">
+                        </div>
+                        <div class="name">
+                            Центр аккредитации РНИМУ им. Н.И. Пирогова
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-test-block block">
+            <div class="container">
+                <div class="inner flex flex-nowrap flex-middle">
+                    <div class="info">
+                        <div class="title">Пройдите тест за 1 минуту</div>
+                        <div class="text-1">
+                            и узнайте какая программаподойдет именно Вам
+                        </div>
+                        <div class="text-2">
+                            Ответив на вопросы теста, вы получите подходящий список прграмм + скидку на обучение
+                        </div>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="button button-white" data-ui-dialog-link="test-form">ПРОЙТИ ТЕСТ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-block block">
+            <div class="inner container">
+                <div class="block-title">Обратная связь</div>
+                <div class="text">Оставьте свои контакты и наши специалисты свяжутся с Вами</div>
+
+                <form action="#" class="question">
+                    <div class="form-group flex flex-nowrap">
+                        <div class="form-group item-info">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Имя*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" placeholder="E-mail*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Телефон*">
+                            </div>
+                        </div>
+                        <div class="form-group item-comment">
+                            <textarea name="comment" rows="5" placeholder="Комментарий или вопрос"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group flex flex-nowrap flex-middle">
+                        <div class="form-group item-rules">
+                            <input type="checkbox" id="question-form-rules" value="1">
+                            <label for="question-form-rules">Согласие на обработку персональных данных</label>
+                        </div>
+                        <div class="form-group item-submit">
+                            <button type="submit">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="footer-text">
+                    Также Вы можете приехать к нам в институт и узнать подробную информацию<br>
+                    Подробная информация в разделе <a href="#">Контакты</a> <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="footer-block">
+            <div class="header">
+                <div class="container inner flex flex-nowrap">
+                    <div class="logo-and-info">
+                        <a href="#" class="logo">
+                            <img src="./img/logo-footer.png" alt="">
+                        </a>
+                        <div class="info">
+                            <div class="license">
+                                Лицензия на образовательную деятельность № 00001
+                            </div>
+                            <div class="contacts">
+                                Адрес института: Москва, ул. Перерва, д.52, стр.1<br>
+                                Контактный телефон: +7 (499) 702-54-54<br>
+                                E-mail: Info@mgido.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu flex flex-nowrap">
+                        <div class="item">
+                            <div class="name">Институт</div>
+                            <ul>
+                                <li><a href="#">О Нас</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Наука</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вход</a></li>
+                                <li><a href="#">НМО</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Сведения об организации</div>
+                            <ul>
+                                <li><a href="#">Условия соглашения</a></li>
+                                <li><a href="#">Политика безопасности</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Оплата обучения</a></li>
+                                <li><a href="#">Сведения об образовательной организации</a></li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="name">Образовательные программы</div>
+                            <ul>
+                                <li><a href="#">Медицинское образование</a></li>
+                                <li><a href="#">Непрерывное медицинское образование (НМО)</a></li>
+                                <li><a href="#">Мастер-классы</a></li>
+                                <li><a href="#">Анатомия для компаний и мероприятий</a></li>
+                                <li><a href="#">Анатомия для врачей</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container flex flex-middle">
+                    <div class="copyright">© 2019 | mgido.com</div>
+                    <div class="social-networks flex">
+                        <a href="#" target="_blank" class="item item-vk">vk</a>
+                        <a href="#" target="_blank" class="item item-fb">fb</a>
+                        <a href="#" target="_blank" class="item item-instagram">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-ui-dialog="call-me-form"
+     data-ui-dialog-width="450"
+     data-ui-dialog-title="Обратный звонок"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="form-group">
+            <input type="text" name="phone" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div data-ui-dialog="test-form"
+     data-ui-dialog-width="600"
+     data-ui-dialog-title="Тестирование"
+>
+    <form action="#" class="call-me-form">
+        <div class="form-group">
+            <textarea name="question_1" rows="3" placeholder="Вопрос 1"></textarea>
+        </div>
+        <div class="form-group">
+            <textarea name="question_2" rows="3" placeholder="Вопрос 2"></textarea>
+        </div>
+        <div class="form-group">
+            <textarea name="question_3" rows="3" placeholder="Вопрос 3"></textarea>
+        </div>
+        <div class="form-group">
+            <textarea name="question_4" rows="3" placeholder="Вопрос 4"></textarea>
+        </div>
+        <div class="form-group">
+            <textarea name="question_5" rows="3" placeholder="Вопрос 5"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Узнать результат</button>
+        </div>
+    </form>
+</div>
+
+<a href="#" class="callback-link" data-ui-dialog-link="call-me-form">
+    <img src="./img/phone.png" alt="">
+</a>
+
+</body>
+</html>
