@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8aebe3bd-8ee4-4fa1-b0cc-f197dc2a2d47" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TdFUpqnXvFKGIELwnaVSDooi4R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\domains\mgido.test\js\colorbox" />
+      <recent name="C:\web\domains\mgido.test\css" />
+      <recent name="C:\web\domains\mgido.test\js\jquery-ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\domains\mgido.test\img" />
+      <recent name="C:\web\domains\mgido.test\css" />
+      <recent name="C:\web\domains\mgido.test" />
+      <recent name="C:\web\domains\mgido.test\js\colorbox" />
+      <recent name="C:\web\domains\mgido.test\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aebe3bd-8ee4-4fa1-b0cc-f197dc2a2d47" name="Default Changelist" comment="" />
+      <created>1573782083399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573782083399</updated>
+      <workItem from="1573782084494" duration="7191000" />
+      <workItem from="1573795572351" duration="13350000" />
+      <workItem from="1573868708028" duration="6000" />
+      <workItem from="1573869086862" duration="445000" />
+      <workItem from="1573870720475" duration="256000" />
+      <workItem from="1573871271406" duration="201000" />
+      <workItem from="1573871477962" duration="8383000" />
+      <workItem from="1574227921675" duration="7446000" />
+      <workItem from="1574255834661" duration="3000" />
+      <workItem from="1574311327684" duration="6267000" />
+      <workItem from="1574338174865" duration="8318000" />
+      <workItem from="1574393622565" duration="190000" />
+      <workItem from="1574766361862" duration="6815000" />
+      <workItem from="1574784130288" duration="1517000" />
+      <workItem from="1574857060101" duration="254000" />
+      <workItem from="1574860794919" duration="96000" />
+      <workItem from="1575614267167" duration="1219000" />
+      <workItem from="1575924756299" duration="2186000" />
+      <workItem from="1576013135522" duration="919000" />
+      <workItem from="1576015615423" duration="607000" />
+      <workItem from="1576150994276" duration="402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

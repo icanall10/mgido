@@ -171,6 +171,17 @@
                 return false;
             });
 
+
+        $('.filters-form select[name="duration"]')
+            .once('auto-submit')
+            .change(function () {
+
+                alert('changed');
+
+                // $(this).closest('form').submit();
+
+            });
+
     }
 
 
