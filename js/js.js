@@ -4,11 +4,17 @@
 
         $('.header-block .menu a.toggle')
             .once()
-            .click(function () {
+            .click(function (e) {
+                let li = $(this).closest('li');
+
                 $(this)
-                    .closest('li')
+                    .closest('.menu')
+                    .find('li')
+                    .not(li)
                     .find('ul')
-                    .toggle();
+                    .hide();
+
+                li.find('ul').toggle();
 
                 return false;
             });
@@ -21,8 +27,10 @@
                 $(document).click(function (event) {
                     $target = $(event.target);
 
-                    if (!$target.closest(selector).length &&
-                        $(selector).is(":visible")) {
+                    if (
+                        !$target.closest(selector).length &&
+                        $(selector).is(":visible")
+                    ) {
                         $(selector).hide();
                     }
                 });
