@@ -104,13 +104,12 @@
         $('.doctors-list.owl-carousel')
             .once()
             .owlCarousel({
-                dots: false,
                 loop: true,
-                slideBy: 3,
                 responsive: {
                     0: {
                         autoWidth: false,
                         items: 1,
+                        slideBy: 1,
                         nav: false,
                         dots: true,
                         margin: 0
@@ -118,6 +117,7 @@
                     450: {
                         autoWidth: false,
                         items: 2,
+                        slideBy: 2,
                         margin: 20,
                         nav: false,
                         dots: true

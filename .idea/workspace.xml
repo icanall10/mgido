@@ -26,21 +26,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\web\domains\mgido.test\js\colorbox" />
-      <recent name="C:\web\domains\mgido.test\css" />
-      <recent name="C:\web\domains\mgido.test\js\jquery-ui" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\domains\mgido.test\js" />
       <recent name="C:\web\domains\mgido.test\img" />
       <recent name="C:\web\domains\mgido.test\css" />
       <recent name="C:\web\domains\mgido.test" />
       <recent name="C:\web\domains\mgido.test\js\colorbox" />
-      <recent name="C:\web\domains\mgido.test\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\domains\mgido.test\js\colorbox" />
+      <recent name="C:\web\domains\mgido.test\css" />
+      <recent name="C:\web\domains\mgido.test\js\jquery-ui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +85,8 @@
       <workItem from="1575924756299" duration="2186000" />
       <workItem from="1576013135522" duration="919000" />
       <workItem from="1576015615423" duration="607000" />
-      <workItem from="1576150994276" duration="402000" />
+      <workItem from="1576150994276" duration="2830000" />
+      <workItem from="1576219411170" duration="20000" />
     </task>
     <servers />
   </component>
